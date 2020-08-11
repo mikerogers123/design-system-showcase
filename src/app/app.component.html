@@ -1,0 +1,26 @@
+<header>
+  <nav id="top-menu">
+    <span>
+      <a href="https://www.admiralty.co.uk/">
+        <img src="../assets/svg/admiralty-stacked-logo.svg" alt="Admiralty Marine Data Solutions" />
+      </a>
+    </span>
+  </nav>
+</header>
+
+<header>
+  <h1><a href="/">{{ title }}</a></h1>
+  <nav id="main-menu">
+    <ul>
+      <li></li>
+    </ul>
+  </nav>
+</header>
+
+<ukho-breadcrumbs [items]="breadcrumbs"></ukho-breadcrumbs>
+
+<main>
+  <router-outlet></router-outlet>
+</main>
+
+<footer>&copy; Crown copyright 2020 UK Hydrographic Office</footer>

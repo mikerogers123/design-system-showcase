@@ -1,0 +1,8 @@
+{
+  "extends": ["@ukho"],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "project": ["tsconfig.json", "tsconfig.spec.json", "tsconfig.app.json", "cypress/tsconfig.json"]
+  }
+}
